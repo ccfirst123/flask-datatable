@@ -10,6 +10,6 @@ a simple flask website, a class wrapped for jquery datatable server-side process
    (venv)$python manage.py db migrate  
    (venv)$python manage.py db upgrade  
    (venv)$python manage.py shell  
-    >>> Student.generate_fake(1000)
+    >>> Student.generate_fake(100)
 4. run the website  
    (venv)$python manage.py runserver
